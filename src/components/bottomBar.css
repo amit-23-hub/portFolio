@@ -1,0 +1,40 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: none; /* Hide by default */
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    gap: 0.8rem;
+    
+    backdrop-filter: blur(15px);
+  }
+  
+  /* Display the navigation only on phone screens */
+  @media screen and (max-width: 768px) {
+    nav {
+      display: flex; /* Show navigation on phone screens */
+    }
+  }
+  
+  nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    background: rgb(114, 114, 222);
+  }
+  
+  nav a.active {
+    background:  #1f1f38;
+    color: white;
+  }
+  
