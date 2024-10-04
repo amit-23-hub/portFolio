@@ -2,10 +2,10 @@ import React from "react";
 import api from "../assets/portfolio/api.jpg";
 import apod from "../assets/portfolio/apod.jpg";
 import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
+import FTV from "../assets/portfolio/nftportal.jpg";
+import Farmer from "../assets/portfolio/webpostman.jpg";
 import waveportal from "../assets/portfolio/waveportal.jpg";
-
+import Farmervideo from  "../assets/portfolio/Farmer.mp4"
 const Portfolio = () => {
   const portfolios = [
     {
@@ -16,33 +16,46 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: webpostman,
+      src: api,
       link: 'https://webpostman.netlify.app/',
       repo: 'https://github.com/rahulkarda/Web-Postman'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: api,
+      link: 'https://mern-child-right-gamified.vercel.app/',
+      repo: 'https://github.com/amit-23-hub/MERN-childRight-Gamified'
     },
     {
       id: 4,
-      src: waveportal,
+      src: api,
+      link: 'https://csse-web-eight.vercel.app/',
+      repo: 'https://github.com/amit-23-hub/CSSE-WEB'
+    },
+    
+    {
+      id: 5,
+      src: api,
       link: 'https://waveatrahul.netlify.app/',
       repo: 'https://github.com/rahulkarda/Wave-Portal'
     },
     {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      id: 6,
+      src: api,
+      link: 'https://interior-designed.vercel.app/',
+      repo: 'https://github.com/amit-23-hub/interior-designed'
     },
     {
-      id: 6,
-      src: iptracker,
+      id: 7,
+      src: api,
       link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      repo: 'https://github.com/amit-23-hub/FTVsalon'
+    },
+    {
+      id: 8,
+      src:api,
+      link: 'https://trackmyip.netlify.app/',
+      repo: 'https://github.com/amit-23-hub/FTVsalon'
     },
   ];
 

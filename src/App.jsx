@@ -8,6 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer"
 import Particle from "./components/Particle";
 import Topbar from "./components/bottomBar";
+import TestiMonial from "./components/testemonial";
 
 
 function App() {
@@ -15,12 +16,12 @@ function App() {
     <div>
       <NavBar />
       <Topbar/>
-      {/* <MyParticles/> */}
       <Particle/>
       <Home />
       <About />
       <Portfolio />
       <Experience />
+      <TestiMonial/>
       <Contact />
       <Footer />
       <SocialLinks />
