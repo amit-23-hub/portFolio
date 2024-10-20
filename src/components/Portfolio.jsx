@@ -1,59 +1,54 @@
-import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import FTV from "../assets/portfolio/nftportal.jpg";
-import Farmer from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
-import Farmervideo from  "../assets/portfolio/Farmer.mp4"
+import React from "react";     
+import booking from "../assets/portfolio/booking-easy.png";
+import farmer from "../assets/portfolio/farmer.png";
+import iliff from "../assets/portfolio/iliff.png";
+import societyWeb from "../assets/portfolio/societyWeb.png";
+import oasis from "../assets/portfolio/oasis.png";
+import rightExplorer from "../assets/portfolio/rightExplorer.png";
+import portfolio from "../assets/portfolio/port.png";
+import Farmervideo from  "../assets/portfolio/Farmer.mp4" ; 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: iliff,
+      link: 'https://www.iliff.edu/',
+      repo: '#'
     },
     {
       id: 2,
-      src: api,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: farmer,
+      link: Farmervideo,
+      repo: 'https://github.com/amit-23-hub/Farmer-Consumer-WebApp'
     },
     {
       id: 3,
-      src: api,
+      src: rightExplorer,
       link: 'https://mern-child-right-gamified.vercel.app/',
       repo: 'https://github.com/amit-23-hub/MERN-childRight-Gamified'
     },
     {
       id: 4,
-      src: api,
+      src: societyWeb ,
       link: 'https://csse-web-eight.vercel.app/',
       repo: 'https://github.com/amit-23-hub/CSSE-WEB'
     },
     
     {
       id: 5,
-      src: api,
+      src: booking,
       link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      repo: 'https://github.com/amit-23-hub/booking-easy-'
     },
     {
       id: 6,
-      src: api,
+      src: oasis,
       link: 'https://interior-designed.vercel.app/',
       repo: 'https://github.com/amit-23-hub/interior-designed'
     },
     {
       id: 7,
-      src: api,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/amit-23-hub/FTVsalon'
-    },
-    {
-      id: 8,
-      src:api,
+      src: portfolio,
       link: 'https://trackmyip.netlify.app/',
       repo: 'https://github.com/amit-23-hub/FTVsalon'
     },
