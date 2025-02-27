@@ -12,6 +12,13 @@ import node from "../assets/node.png";
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
+import linux from "../assets/linux.png"
+import gitlab from "../assets/gitlab.png"
+import docker from "../assets/docker.png"
+import appwrite from "../assets/appwrite.png"
+import sql from "../assets/sql.jpg"
+
+import { FaDocker } from "react-icons/fa";
 const Experience = () => {
   const techs = [
     {
@@ -73,7 +80,32 @@ const Experience = () => {
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
-    },
+    },{
+      id: 11,
+      src: appwrite,
+      title: "Appwrite",
+      style: "shadow-pink-500"
+    },{
+      id: 12,
+      src: docker,
+      title: "docker",
+      style: "shadow-blue-500"
+    },{
+      id: 13,
+      src: linux,
+      title: "linux",
+      style: "shadow-yellow-500"
+    },{
+      id: 14,
+      src: gitlab,
+      title: "Gitlab",
+      style: "shadow-orange-500"
+    },{
+      id: 15,
+      src: sql,
+      title: "SQL",
+      style: "shadow-blue-500"
+    }
   ];
 
   return (
