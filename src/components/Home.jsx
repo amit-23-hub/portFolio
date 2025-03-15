@@ -19,10 +19,10 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack <span className="text-pink-500">Web Developer</span> 
+            I'm a  <span className="text-pink-500">Software Developer</span> 
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm a highly motivated and detail-oriented web developer with a
+            I'm a highly motivated and detail-oriented Software Developer
           </p>
 
           <div className="portfolio-btn">

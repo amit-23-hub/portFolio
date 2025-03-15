@@ -21,30 +21,22 @@ const About = () => {
           <li className="flex items-center bg-gradient-to-r from-blue-200/60 to-transparent p-6 rounded-lg transition-all duration-300 hover:bg-blue-200/60">
             <img src={img3} alt="Cursor icon" className="w-12 h-12 mr-4" />
             <div>
-              <h3 className="text-2xl font-semibold text-white">Frontend Developer</h3>
+              <h3 className="text-2xl font-semibold text-white">Software Developer</h3>
               <p className="text-lg text-gray-200">
-                I'm a frontend developer with experience in building responsive and optimized sites.
+              Building scalable and efficient digital solutions with a focus on innovation and performance.
               </p>
             </div>
           </li>
           <li className="flex items-center bg-gradient-to-r from-blue-200/60 to-transparent p-6 rounded-lg transition-all duration-300 hover:bg-blue-200/60">
             <img src={img2} alt="Server icon" className="w-12 h-12 mr-4" />
             <div>
-              <h3 className="text-2xl font-semibold text-white">Backend Developer</h3>
+              <h3 className="text-2xl font-semibold text-white">Full-Stack Developer</h3>
               <p className="text-lg text-gray-200">
-                I have experience developing fast and optimized back-end systems and APIs.
+              Designing and developing scalable full-stack solutions with seamless user experiences and robust backend architecture
               </p>
             </div>
           </li>
-          <li className="flex items-center bg-gradient-to-r from-blue-200/60 to-transparent p-6 rounded-lg transition-all duration-300 hover:bg-blue-200/60">
-            <img src={img1} alt="UI icon" className="w-12 h-12 mr-4" />
-            <div>
-              <h3 className="text-2xl font-semibold text-white">UI Designer</h3>
-              <p className="text-lg text-gray-200">
-                I have designed multiple landing pages and have created design systems as well.
-              </p>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </section>

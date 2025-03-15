@@ -9,6 +9,8 @@ import Footer from "./components/Footer"
 import Particle from "./components/Particle";
 import Topbar from "./components/bottomBar";
 import TestiMonial from "./components/testemonial";
+import Exp from "./components/Organisation/EventContent/Exp";
+import Timeline from "./components/Timeline/timeline";
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Particle/>
       <Home />
       <About />
+      <Timeline/>
       <Portfolio />
       <Experience />
       {/* <TestiMonial/> */}

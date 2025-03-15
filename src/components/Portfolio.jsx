@@ -8,6 +8,7 @@ import oasis from "../assets/portfolio/oasis.png";
 import rightExplorer from "../assets/portfolio/rightExplorer.png";
 import portfolio from "../assets/portfolio/port.png";
 import Farmervideo from  "../assets/portfolio/Farmer.mp4" ; 
+import Shailja from "../assets/portfolio/shailja.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,38 +30,38 @@ const Portfolio = () => {
       link:'synlabf.vercel.app',
       repo : 'https://github.com/amit-23-hub/SynLab-IDE.git'
 
+    },{
+      id :4 ,
+      src : Shailja , 
+      link: 'https://shailjatrust.org/' , 
+      repo : '#'
     },
     {
-      id: 4,
+      id: 5,
       src: rightExplorer,
       link: 'https://mern-child-right-gamified.vercel.app/',
       repo: 'https://github.com/amit-23-hub/MERN-childRight-Gamified'
     },
     {
-      id: 5,
+      id: 6,
       src: societyWeb ,
       link: 'https://csse-web-eight.vercel.app/',
       repo: 'https://github.com/amit-23-hub/CSSE-WEB'
     },
     
     {
-      id: 6,
+      id: 7,
       src: booking,
       link: 'https://waveatrahul.netlify.app/',
       repo: 'https://github.com/amit-23-hub/booking-easy-'
     },
     {
-      id: 7,
+      id: 8,
       src: oasis,
       link: 'https://interior-designed.vercel.app/',
       repo: 'https://github.com/amit-23-hub/interior-designed'
     },
-    {
-      id: 8,
-      src: portfolio,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/amit-23-hub/FTVsalon'
-    },
+    
   ];
 
   return (
@@ -71,7 +72,7 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
